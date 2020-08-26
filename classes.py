@@ -1,0 +1,71 @@
+#classConfig = {'test': "test"}
+
+config = {
+        'FPP': [('PRP', 'i')],
+        'FPPme': [('PRP.*', 'me'), ('PRP.*', 'myself'), ('PRP.*', 'my'), ('PRP.*', 'mine')],
+        'FPPwe': [('PRP.*', 'us'), ('PRP.*', 'our'), ('PRP.*', 'ourselv'), ('PRP.*', 'our')],
+        'FPPyou': [('PRP.*', 'you'), ('PRP.*', 'your'), ('PRP.*', 'yours'), ('PRP.*', 'yourself'), ('PRP.*', 'yourselv')],
+        'TPP': [('PRP.*', 'he'), ('PRP.*', 'him'), ('PRP.*', 'hi'), ('PRP.*', 'himself'),
+                ('PRP.*', 'it'), ('PRP.*', 'itself'), ('PRP.*', 'them'),('JJ', 'their'),('PRP.*', 'their'), ('PRP.*', 'they'),
+                ('PRP.*', 'themselv'), ('PRP.*', 'one'), ('PRP.*', 'ones')],
+        'VaguePronoun': [('NN', 'anyon'), ('NN', 'anyth'), ('NN', 'someth'), ('NN', 'someon'), ('WRB', 'whenev'),
+                         ('WRB', 'whatev'), ('WRB', 'whichev'), ('WRB', 'wherev'), ('.*', 'w\w*ev')],
+        'VerbString': [
+            [('VB.*', '(?!.*(am|are|is|wa|were|be|been|have|ha|had)).*'), ('TO', 'to'), ('VB.*', '.*')],
+            [('VB.*', '(?!.*(am|are|is|wa|were|be|been|have|ha|had)).*'), ('VBG', '.*')],
+            [('VB.*', '(?!.*(am|are|is|wa|were|be|been|have|ha|had)).*'), ('.*', 'that')],
+        ],
+        'Present': [
+            ('VBP', '.*'), ('VBZ', '.*'),
+        ],
+        'Past': [
+            ('VBD', '.*'), ('VBN', '.*'),
+        ],
+
+    # [('VB', '((?!is)|(?!wa)|(?!do)|(?!have))*'), ('TO', 'to'), ('VB', '.*')],
+    # [('VB.*', '(?!.*(am|are|is|wa|were|be|been|do|have)).*'), ('.*', '.*'), ('.*', '.*'), ('TO', 'to'), ('VB.*', '.*')],
+    # [('VB.*', '(?!.*(am|are|is|wa|were|be|been|do|have)).*'), ('.*', '.*'), ('.*', '.*'), ('VB.*', '.*')],
+    # [('VB.*', '(?!.*(am|are|is|wa|were|be|been|do|have)).*'), ('.*', '.*'), ('VB.*', '.*')],
+        #'Determiners': [('.*DT', '.*')],
+        #'Determiners': [('DT', 'all'), ('DT', 'anoth'), ('DT', 'both'), ('DT', 'each'), ('CC', 'either'),
+        #                ('DT', 'everi'), ('RB', 'half'), ('JJ', 'mani'), ('RB', 'much'), ('DT', 'some'), ('JJ', 'such'),
+        #                ('PRP', 'them'), ('DT', 'these'), ('IN', 'that'), ('DT', 'thi'), ('DT', 'those')],
+    # 'CognitiveVerb': [('VB', 'admit'), ('JJ', 'afterthought'), ('NN', 'assum'), ('JJ', 'awar'), ('NN', 'choic'), ('VB', 'choos'), ('JJ', 'complex'), ('JJ', 'complic'), ('NN', 'comprehend'), ('VBD', 'concentr'), ('NN', 'confess'), ('JJ', 'consciou'), ('VB', 'consid'), ('VBG', 'contempl'), ('NNS', 'curio'), ('VBP', 'decid'), ('NN', 'decis'), ('VBP', 'discov'), ('VB', 'evalu'), ('JJ', 'figur'), ('NN', 'grasp'), ('NN', 'idea'), ('VBP', 'imagin'), ('NN', 'infer'), ('VB', 'inspir'), ('NN', 'interpret'), ('NN', 'justif'), ('VBP', 'learn'), ('NN', 'link'), ('NN', 'memori'), ('NN', 'misunderstand'), ('NN', 'motiv'), ('NN', 'notic'), ('VBP', 'perceiv'), ('JJ', 'ponder'), ('RB', 'presum'), ('JJ', 'proven'), ('NN', 'queri'), ('VBP', 'realiz'), ('NN', 'recal'), ('NN', 'reckon'), ('NN', 'recollect'), ('VBP', 'rememb'), ('NN', 'resolv'), ('VBP', 'reveal'), ('NN', 'revel'), ('NN', 'sens'), ('VBN', 'suspect'), ('RB', 'almost'), ('VB', 'blur'), ('VB', 'commit'), ('NN', 'conflict'), ('NN', 'consequ'), ('NN', 'control'), ('MD', 'could'), ('JJ', 'differ'), ('JJ', 'discern'), ('JJ', 'distinct'), ('JJ', 'exclus'), ('NN', 'forc'), ('VB', 'forget'), ('RB', 'henc'), ('VB', 'ignor'), ('JJ', 'imposs'), ('JJ', 'inadequ'), ('JJ', 'indecis'), ('JJ', 'indetermin'), ('JJ', 'main'), ('RB', 'nearli'), ('JJ', 'obviou'), ('VBN', 'bought'), ('VBP', 'ponder'), ('JJ', 'possibl'), ('MD', 'should'), ('VB', 'stop'), ('JJ', 'sure'), ('NN', u'theori'), ('IN', 'whether'), ('VBN', 'withheld'), ('MD', 'would')]
+    # 'CognitiveVerb': [('.*', 'admit'), ('.*', 'afterthought'), ('.*', 'assum'), ('.*', 'awar'), ('.*', 'choic'),
+    #                  ('.*', 'choos'), ('.*', 'complex'), ('.*', 'complic'), ('.*', 'comprehend'),
+    #                  ('.*', 'concentr'), ('.*', 'confess'), ('.*', 'consciou'), ('.*', 'consid'),
+    #                  ('.*', 'contempl'), ('.*', 'curio'), ('.*', 'decid'), ('.*', 'decis'), ('.*', 'discov'),
+    #                  ('.*', 'evalu'), ('.*', 'figur'), ('.*', 'grasp'), ('.*', 'idea'), ('.*', 'imagin'),
+    #                  ('.*', 'infer'), ('.*', 'inspir'), ('.*', 'interpret'), ('.*', 'justif'), ('.*', 'learn'),
+    #                  ('.*', 'link'), ('.*', 'memori'), ('.*', 'misunderstand'), ('.*', 'motiv'), ('.*', 'notic'),
+    #                  ('.*', 'perceiv'), ('.*', 'ponder'), ('.*', 'presum'), ('.*', 'proven'), ('.*', 'queri'),
+    #                  ('.*', 'realiz'), ('.*', 'recal'), ('.*', 'reckon'), ('.*', 'recollect'), ('.*', 'rememb'),
+    #                  ('.*', 'resolv'), ('.*', 'reveal'), ('.*', 'revel'), ('.*', 'sens'), ('.*', 'suspect'),
+    #                  ('.*', 'almost'), ('.*', 'blur'), ('.*', 'commit'), ('.*', 'conflict'), ('.*', 'consequ'),
+    #                  ('.*', 'control'), ('.*', 'could'), ('.*', 'differ'), ('.*', 'discern'), ('.*', 'distinct'),
+    #                  ('.*', 'exclus'), ('.*', 'forc'), ('.*', 'forget'), ('.*', 'henc'), ('VB', 'ignor'),
+    #                  ('.*', 'imposs'), ('.*', 'inadequ'), ('.*', 'indecis'), ('.*', 'indetermin'), ('.*', 'main'),
+    #                  ('.*', 'nearli'), ('.*', 'obviou'), ('.*', 'bought'), ('.*', 'ponder'), ('.*', 'possibl'),
+    #                  ('.*', 'should'), ('.*', 'stop'), ('.*', 'sure'), ('.*', 'theori'), ('.*', 'whether'),
+    #                  ('.*', 'withheld'), ('.*', 'would')],
+    #'Negation': [('.*', 'not'), ('.*', 'do'), ('.*', "n't"), ('.*', 'neither'), ('.*', 'never'), ('.*', 'no'),
+    #            ('.*', 'nobody'), ('.*', 'none'), ('.*', 'nope'), ('.*', 'nor'), ('.*', 'noth'), ('.*', 'nowher'),
+    #            ('.*', 'without'), ('.*', 'only'), ('.*', 'unless'), ('.*', 'hardly'), ('.*', 'bare')],
+
+    'Negation': [('.*', 'not'),  ('.*', "n't"), ('.*', 'neither'), ('.*', 'never'), ('.*', 'no'),
+                ('.*', 'nobodi'), ('.*', 'none'), ('.*', 'nope'), ('.*', 'nor'), ('.*', 'noth'), ('.*', 'nowher'),
+                ('.*', 'without'), ('.*', 'onli'), ('.*', 'unless'), ('.*', 'hardli'), ('.*', 'bare')],
+    # 'Stative': [
+    #    ('VB.*', 'adore'), ('VB.*', 'agre'), ('VB.*', 'appear'), ('VB.*', 'appreci'), ('VB.*', 'astonish'),
+    #    ('VB.*', 'believ'), ('VB.*', 'belong'), ('VB.*', 'concern'), ('VB.*', 'consist'), ('VB.*', 'cost'),
+    #    ('VB.*', 'den'), ('VB.*', 'depend'), ('VB.*', 'deserv'), ('VB.*', 'detest'), ('VB.*', 'disagre'),
+    #    ('VB.*', 'dislik'), ('VB.*', 'doubt'), ('VB.*', 'equal'), ('VB.*', 'feel'), ('VB.*', 'hate'), ('VB', 'hear'),
+    #    ('VB.*', 'imagin'), ('VB.*', 'includ'), ('VB.*', 'involv'), ('VB.*', 'know'), ('VB.*', 'known'),
+    #    ('VB.*', 'lack'),
+    #    ('VB.*', 'like'), ('VB.*', 'love'), ('VB.*', 'loath'), ('VB.*', 'matter'), ('VB.*', 'mean'),
+    #    ('VB.*', 'measur'), ('VB.*', 'mind'), ('VB.*', 'need'), ('VB.*', 'ow'), ('VB.*', 'own'), ('VB', 'pleas'),
+    #    ('VB.*.*', 'possess'), ('VB.*', 'prefer'), ('VB.*', 'realis'), ('VB.*', 'recognis'), ('VB.*', 'rememb'),
+    #    ('VB.*', 'resembl'), ('VB.*', 'seem'), ('VB.*', 'suppos'), ('VB.*', 'surpris'), ('VB.*', 'think'),
+    #    ('VB.*', 'thought'), ('VB.*', 'understand'), ('VB.*', 'valu'), ('VB.*', 'want'), ('VB.*', 'wish')
+    # ]
+}

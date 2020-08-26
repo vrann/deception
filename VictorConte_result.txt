@@ -1,0 +1,205 @@
+('Chunk Number: ', 1)
+[u'Dear', u'Dwain', u',', u'Per', u'your', u'request', u',', u'this', u'letter', u'is', u'to', u'confirm', u'I', u'am', u'willing', u'to', u'assist', u'you', u'in', u'providing', u'UK', u'Sport', u'and', u'others', u'with', u'information', u'that', u'will', u'help']
+{'VerbString': Counter({u'VBZ_is TO_to VB_confirm': 1, u'VB_confirm PRP_i VBP_am': 1, u'VB_assist PRP_you IN_in VBG_provid': 1}), 'FPPyou': Counter({u'PRP$_your': 1, u'PRP_you': 1}), 'FPP': Counter({u'PRP_i': 1}), 'FPPme': Counter(), 'FPPwe': Counter()}
+()
+('Chunk Number: ', 2)
+[u'them', u'to', u'improve', u'the', u'effectiveness', u'of', u'their', u'anti-doping', u'programs', u'.', u'The', u'specific', u'details', u'regarding', u'how', u'you', u'were', u'able', u'to', u'circumvent', u'the', u'British', u'and', u'IAAF', u'anti-doping', u'tests', u'for', u'an', u'extended']
+{'FPPyou': Counter({u'PRP_you': 1}), 'FPP': Counter(), 'FPPme': Counter(), 'FPPwe': Counter()}
+()
+('Chunk Number: ', 3)
+[u'period', u'of', u'time', u'are', u'provided', u'below', u'.', u'Your', u'performance', u'enhancing', u'drug', u'program', u'included', u'the', u'following', u'seven', u'prohibited', u'substances', u':', u'THG', u',', u'testosterone/epitestosterone', u'cream', u',', u'EPO', u'-LRB-', u'Procrit', u'-RRB-', u',']
+{'FPPyou': Counter({u'PRP$_your': 1}), 'FPP': Counter(), 'FPPme': Counter(), 'FPPwe': Counter()}
+()
+('Chunk Number: ', 4)
+[u'HGH', u'-LRB-', u'Serostim', u'-RRB-', u',', u'insulin', u'-LRB-', u'Humalog', u'-RRB-', u',', u'modafinil', u'-LRB-', u'Provigil', u'-RRB-', u'and', u'liothryonine', u',', u'which', u'is', u'a', u'synthetic', u'form', u'of', u'the', u'T3', u'thyroid', u'hormone', u'-LRB-', u'Cytomel']
+{}
+()
+('Chunk Number: ', 5)
+[u'-RRB-', u'.', u'THG', u'is', u'a', u'previously', u'undetectable', u'designer', u'steroid', u'nicknamed', u'``', u'the', u'clear', u'.', u"''", u'It', u'was', u'primarily', u'used', u'in', u'the', u'off', u'season', u'and', u'was', u'taken', u'two', u'days', u'per']
+{'VerbString': Counter({u'VBD_wa RB_primarili VBN_use': 1})}
+()
+('Chunk Number: ', 6)
+[u'week', u',', u'typically', u'on', u'Mondays', u'and', u'Wednesdays', u'.', u'Generally', u',', u'these', u'were', u'the', u'two', u'most', u'intense', u'weight-training', u'days', u'of', u'the', u'week', u'.', u'The', u'purpose', u'was', u'to', u'accelerate', u'healing', u'and']
+{'VerbString': Counter({u'VBD_wa TO_to VB_acceler': 1})}
+()
+('Chunk Number: ', 7)
+[u'tissue', u'repair', u'.', u'Thirty', u'units', u'-LRB-', u'IU', u'-RRB-', u'of', u'the', u'liquid', u'was', u'place', u'under', u'the', u'tongue', u'during', u'the', u'morning', u'time-frame', u'.', u'THG', u'was', u'used', u'in', u'cycles', u'of', u'``', u'three']
+{}
+()
+('Chunk Number: ', 8)
+[u'weeks', u'on', u'and', u'one', u'week', u'off', u'.', u"''", u'Testosterone/epitestosterone', u'cream', u'was', u'also', u'primarily', u'used', u'during', u'the', u'off', u'season', u'.', u'It', u'was', u'rubbed', u'into', u'the', u'skin', u'on', u'the', u'front', u'of']
+{}
+()
+('Chunk Number: ', 9)
+[u'the', u'forearm', u'two', u'days', u'per', u'week', u',', u'typically', u'Tuesdays', u'and', u'Thursdays', u'.', u'The', u'dosage', u'was', u'1/2', u'gram', u'which', u'contained', u'50mg', u'of', u'testosterone', u'and', u'2.5', u'mg', u'of', u'epitestosterone', u'-LRB-', u'20']
+{}
+()
+('Chunk Number: ', 10)
+[u'to', u'1', u'ratio', u'-RRB-', u'.', u'The', u'purpose', u'was', u'to', u'offset', u'the', u'suppression', u'of', u'endogenous', u'testosterone', u'caused', u'by', u'the', u'use', u'of', u'the', u'THG', u'and', u'to', u'accelerate', u'recovery', u'.', u'The', u'testosterone/epitestosterone']
+{'VerbString': Counter({u'VBD_wa TO_to VB_offset': 1})}
+()
+('Chunk Number: ', 11)
+[u'cream', u'was', u'also', u'used', u'in', u'cycles', u'of', u'three', u'weeks', u'on', u'and', u'one', u'week', u'off', u'.', u'EPO', u'was', u'used', u'three', u'days', u'per', u'week', u'during', u'the', u'``', u'corrective', u'phase', u"''", u',']
+{'VerbString': Counter({u'VBD_wa RB_also VBN_use': 1})}
+()
+('Chunk Number: ', 12)
+[u'which', u'is', u'the', u'first', u'two', u'weeks', u'of', u'a', u'cycle', u'.', u'Typically', u',', u'it', u'was', u'on', u'Mondays', u',', u'Wednesdays', u'and', u'Fridays', u'.', u'It', u'was', u'only', u'used', u'once', u'per', u'week', u'during']
+{'VerbString': Counter({u'VBD_wa RB_onli VBN_use': 1})}
+()
+('Chunk Number: ', 13)
+[u'the', u'``', u'maintenance', u'phase', u"''", u'thereafter', u',', u'typically', u'this', u'was', u'every', u'Wednesday', u'.', u'The', u'dosage', u'was', u'4,000', u'IU', u'per', u'injection', u'.', u'The', u'purpose', u'was', u'to', u'increase', u'the', u'red', u'blood']
+{'VerbString': Counter({u'VBD_wa TO_to VB_increas': 1})}
+()
+('Chunk Number: ', 14)
+[u'cell', u'count', u'and', u'enhance', u'oxygen', u'uptake', u'and', u'utilization', u'.', u'This', u'substance', u'provides', u'a', u'big', u'advantage', u'to', u'sprinters', u'because', u'it', u'enables', u'them', u'to', u'do', u'more', u'track', u'repetitions', u'and', u'obtain', u'a']
+{}
+()
+('Chunk Number: ', 15)
+[u'much', u'deeper', u'training', u'load', u'during', u'the', u'off', u'season', u'.', u'EPO', u'becomes', u'undetectable', u'about', u'72', u'hours', u'after', u'subcutaneous', u'injection', u'-LRB-', u'stomach', u'-RRB-', u'and', u'only', u'24', u'hours', u'after', u'intravenous', u'injection', u'.']
+{}
+()
+('Chunk Number: ', 16)
+[u'HGH', u'was', u'used', u'three', u'nights', u'per', u'week', u',', u'typically', u'on', u'Mondays', u',', u'Wednesdays', u'and', u'Fridays', u'.', u'Each', u'injection', u'would', u'contain', u'4.5', u'units', u'of', u'growth', u'hormone', u'.', u'Once', u'again', u',']
+{}
+()
+('Chunk Number: ', 17)
+[u'this', u'substance', u'was', u'used', u'primarily', u'during', u'the', u'off', u'season', u'to', u'help', u'with', u'recovery', u'from', u'very', u'strenuous', u'weight', u'training', u'sessions', u'.', u'Insulin', u'was', u'used', u'after', u'strenuous', u'weight', u'training', u'sessions', u'during']
+{}
+()
+('Chunk Number: ', 18)
+[u'the', u'off', u'season', u'.', u'Three', u'units', u'of', u'Humalog', u'-LRB-', u'fast-acting', u'insulin', u'-RRB-', u'were', u'injected', u'immediately', u'after', u'the', u'workout', u'sessions', u'together', u'with', u'a', u'powdered', u'drink', u'that', u'contained', u'30', u'grams', u'of']
+{}
+()
+('Chunk Number: ', 19)
+[u'dextrose', u',', u'30', u'grams', u'of', u'whey', u'protein', u'isolates', u'and', u'3', u'grams', u'of', u'creatine', u'.', u'The', u'purpose', u'was', u'to', u'quickly', u'replenish', u'glycogen', u',', u'resynthesize', u'ATP', u'and', u'promote', u'protein', u'synthesis', u'and']
+{}
+()
+('Chunk Number: ', 20)
+[u'muscle', u'growth', u'.', u'Insulin', u'acts', u'as', u'a', u'``', u'shuttle', u'system', u"''", u'in', u'the', u'transport', u'of', u'glucose', u'and', u'branch', u'chain', u'amino', u'acids', u'.', u'There', u'is', u'no', u'test', u'available', u'for', u'insulin']
+{}
+()
+('Chunk Number: ', 21)
+[u'at', u'this', u'time', u'.', u'Modafinil', u'was', u'used', u'as', u'a', u'``', u'wakefulness', u'promoting', u"''", u'agent', u'before', u'competitions', u'.', u'The', u'purpose', u'was', u'to', u'decrease', u'fatigue', u'and', u'enhance', u'mental', u'alertness', u'and', u'reaction']
+{'VerbString': Counter({u'VBD_wa TO_to VB_decreas': 1})}
+()
+('Chunk Number: ', 22)
+[u'time', u'.', u'A', u'200mg', u'tablet', u'was', u'consumed', u'one', u'hour', u'before', u'competition', u'.', u'Liothryonine', u'was', u'used', u'help', u'accelerate', u'the', u'basic', u'metabolic', u'rate', u'before', u'competitions', u'.', u'The', u'purpose', u'was', u'to', u'reduce']
+{'VerbString': Counter({u'VBN_use NN_help VB_acceler': 1, u'VBD_wa TO_to VB_reduc': 1})}
+()
+('Chunk Number: ', 23)
+[u'sluggishness', u'and', u'increase', u'quickness', u'.', u'Two', u'25mg', u'tablets', u'were', u'taken', u'one', u'hour', u'before', u'competition', u'.', u'There', u'is', u'no', u'test', u'available', u'for', u'liothryonine', u'at', u'this', u'time', u'.', u'In', u'general', u'terms']
+{}
+()
+('Chunk Number: ', 24)
+[u',', u'explosive', u'strength', u'athletes', u',', u'such', u'as', u'sprinters', u',', u'use', u'anabolic', u'steroids', u',', u'growth', u'hormone', u',', u'insulin', u'and', u'EPO', u'during', u'the', u'off', u'season', u'.', u'They', u'use', u'these', u'drugs', u'in']
+{}
+()
+('Chunk Number: ', 25)
+[u'conjunction', u'with', u'an', u'intense', u'weight', u'training', u'program', u',', u'which', u'helps', u'to', u'develop', u'a', u'strength', u'base', u'that', u'will', u'serve', u'them', u'throughout', u'the', u'competitive', u'season', u'.', u'Speed', u'work', u'is', u'done', u'just']
+{'VerbString': Counter({u'VBZ_help TO_to VB_develop': 1})}
+()
+('Chunk Number: ', 26)
+[u'prior', u'to', u'the', u'start', u'of', u'the', u'competitive', u'season', u'.', u'It', u'is', u'important', u'to', u'understand', u'it', u'is', u'not', u'really', u'necessary', u'for', u'athletes', u'to', u'have', u'access', u'to', u'designer', u'anabolic', u'steroids', u'such']
+{'VerbString': Counter({u'VB_understand PRP_it VBZ_is': 1})}
+()
+('Chunk Number: ', 27)
+[u'as', u'THG', u'.', u'They', u'can', u'simply', u'use', u'fast-acting', u'testosterone', u'-LRB-', u'oral', u'as', u'well', u'as', u'creams', u'and', u'gels', u'-RRB-', u'and', u'still', u'easily', u'avoid', u'the', u'testers', u'.', u'For', u'example', u',', u'oral']
+{}
+()
+('Chunk Number: ', 28)
+[u'testosterone', u'will', u'clear', u'the', u'system', u'in', u'less', u'than', u'a', u'week', u'and', u'testosterone', u'creams', u'and', u'gels', u'will', u'clear', u'even', u'faster', u'.', u'Many', u'drug-tested', u'athletes', u'use', u'what', u'I', u'call', u'the', u'``']
+{'FPPyou': Counter(), 'FPP': Counter({u'PRP_i': 1}), 'FPPme': Counter(), 'FPPwe': Counter()}
+()
+('Chunk Number: ', 29)
+[u'duck', u'and', u'dodge', u"''", u'technique', u'.', u'Several', u'journalists', u'in', u'the', u'UK', u'have', u'recently', u'referred', u'to', u'it', u'as', u'the', u'``', u'duck', u'and', u'dive', u"''", u'technique', u'.', u'This', u'is', u'basically', u'how']
+{'VerbString': Counter({u'VBP_have RB_recent VBN_refer': 1, u'VB_duck CC_and VB_dodg': 1})}
+()
+('Chunk Number: ', 30)
+[u'it', u'works', u'.', u'First', u',', u'the', u'athlete', u'repeatedly', u'calls', u'their', u'own', u'cell', u'phone', u'until', u'the', u'message', u'capacity', u'is', u'full', u'.', u'This', u'way', u'the', u'athlete', u'can', u'claim', u'to', u'the', u'testers']
+{}
+()
+('Chunk Number: ', 31)
+[u'that', u'they', u'did', u"n't", u'get', u'a', u'message', u'when', u'they', u'finally', u'decide', u'to', u'make', u'themselves', u'available', u'.', u'Secondly', u',', u'they', u'provide', u'incorrect', u'information', u'on', u'their', u'whereabouts', u'form', u'.', u'They', u'say']
+{'VerbString': Counter({u"VBD_did RB_n't VB_get": 1, u'VBP_decid TO_to VB_make': 1})}
+()
+('Chunk Number: ', 32)
+[u'they', u'are', u'going', u'to', u'one', u'place', u'and', u'then', u'go', u'to', u'another', u'.', u'Thereafter', u',', u'they', u'start', u'using', u'testosterone', u',', u'growth', u'hormone', u'and', u'other', u'drugs', u'for', u'a', u'short', u'cycle', u'of']
+{'VerbString': Counter({u'VBP_are VBG_go': 1, u'VBP_start VBG_use': 1})}
+()
+('Chunk Number: ', 33)
+[u'two', u'to', u'three', u'weeks', u'.', u'After', u'the', u'athlete', u'discontinues', u'using', u'the', u'drugs', u'for', u'a', u'few', u'days', u'and', u'they', u'know', u'that', u'they', u'will', u'test', u'clean', u',', u'they', u'become', u'available', u'and']
+{'VerbString': Counter({u'VBP_know IN_that': 1, u'VBZ_discontinu VBG_use': 1})}
+()
+('Chunk Number: ', 34)
+[u'resume', u'training', u'at', u'their', u'regular', u'facility', u'.', u'Most', u'athletes', u'are', u'tested', u'approximately', u'two', u'times', u'each', u'year', u'on', u'a', u'random', u'out-of', u'-', u'competition', u'basis', u'.', u'If', u'a', u'tester', u'shows', u'up']
+{}
+()
+('Chunk Number: ', 35)
+[u'and', u'the', u'athlete', u'is', u'not', u'where', u'they', u'are', u'supposed', u'to', u'be', u',', u'then', u'the', u'athlete', u'will', u'receive', u'a', u'``', u'missed', u'test', u"''", u'.', u'This', u'is', u'the', u'equivalent', u'to', u'receiving']
+{'VerbString': Counter({u'VBN_suppos TO_to VB_be': 1})}
+()
+('Chunk Number: ', 36)
+[u'``', u'strike', u'one', u"''", u'when', u'up', u'to', u'bat', u'in', u'a', u'baseball', u'game', u'.', u'The', u'current', u'anti-doping', u'rules', u'allow', u'an', u'athlete', u'to', u'have', u'two', u'missed', u'tests', u'in', u'any', u'given', u'eighteen-month']
+{'VerbString': Counter({u'VB_have CD_two VBN_miss': 1})}
+()
+('Chunk Number: ', 37)
+[u'period', u'without', u'a', u'penalty', u'or', u'consequence', u'.', u'So', u',', u'the', u'disadvantage', u'for', u'an', u'athlete', u'having', u'a', u'missed', u'test', u'is', u'that', u'they', u'have', u'one', u'strike', u'against', u'them', u'.', u'The', u'advantage']
+{'VerbString': Counter({u'VBZ_is IN_that': 1, u'VBG_have DT_a VBN_miss': 1, u'VBN_miss NN_test VBZ_is': 1})}
+()
+('Chunk Number: ', 38)
+[u'of', u'that', u'missed', u'test', u'is', u'the', u'athlete', u'has', u'now', u'received', u'the', u'benefit', u'of', u'a', u'cycle', u'of', u'steroids', u'.', u'Long', u'story', u'short', u',', u'an', u'athlete', u'can', u'continue', u'to', u'duck', u'and']
+{'VerbString': Counter({u'VBZ_ha RB_now VBN_receiv': 1, u'VBN_miss NN_test VBZ_is': 1, u'VB_continu TO_to VB_duck': 1})}
+()
+('Chunk Number: ', 39)
+[u'dive', u'until', u'they', u'have', u'two', u'missed', u'tests', u',', u'which', u'basically', u'means', u'that', u'they', u'can', u'continue', u'to', u'use', u'drugs', u'until', u'that', u'time', u'.', u'In', u'summary', u',', u'it', u"'s", u'my', u'opinion']
+{'VerbString': Counter({u'VB_continu TO_to VB_use': 1, u'VBP_have CD_two VBN_miss': 1, u'VBZ_mean IN_that': 1})}
+()
+('Chunk Number: ', 40)
+[u'that', u'more', u'than', u'fifty', u'percent', u'of', u'the', u'drug', u'tests', u'performed', u'each', u'year', u'should', u'be', u'during', u'the', u'off', u'season', u'or', u'the', u'fourth', u'quarter', u'.', u'This', u'is', u'when', u'the', u'track', u'athletes']
+{}
+()
+('Chunk Number: ', 41)
+[u'are', u'duckin', u"'", u'and', u'divin', u"'", u'and', u'using', u'anabolic', u'steroids', u'and', u'other', u'drugs', u'.', u'Let', u'me', u'provide', u'some', u'rather', u'startling', u'information', u'for', u'your', u'consideration', u'.', u'If', u'you', u'check', u'the']
+{'VerbString': Counter({u'VB_let PRP_me VB_provid': 1}), 'FPPyou': Counter({u'PRP$_your': 1, u'PRP_you': 1}), 'FPP': Counter(), 'FPPme': Counter({u'PRP_me': 1}), 'FPPwe': Counter()}
+()
+('Chunk Number: ', 42)
+[u'testing', u'statistics', u'on', u'the', u'USADA', u'website', u',', u'you', u'will', u'find', u'that', u'the', u'number', u'of', u'out-of-competition', u'drug', u'tests', u'performed', u'during', u'each', u'quarter', u'of', u'2007', u'are', u'as', u'follows', u':', u'in', u'the']
+{'VerbString': Counter({u'VB_find IN_that': 1, u'VBP_are IN_as VBZ_follow': 1}), 'FPPyou': Counter({u'PRP_you': 1}), 'FPP': Counter(), 'FPPme': Counter(), 'FPPwe': Counter()}
+()
+('Chunk Number: ', 43)
+[u'first', u'quarter', u'there', u'were', u'1208', u',', u'second', u'quarter', u'1295', u',', u'third', u'quarter', u'1141', u'and', u'in', u'the', u'fourth', u'quarter', u'there', u'were', u'only', u'642', u'.', u'In', u'late', u'2003', u'I', u'advised', u'USADA']
+{'FPPyou': Counter(), 'FPP': Counter({u'PRP_i': 1}), 'FPPme': Counter(), 'FPPwe': Counter()}
+()
+('Chunk Number: ', 44)
+[u'about', u'the', u'importance', u'of', u'random', u'testing', u'during', u'the', u'fourth', u'quarter', u'of', u'the', u'year', u'.', u'They', u'did', u'initially', u'seem', u'to', u'follow', u'my', u'advice', u'because', u'they', u'increased', u'the', u'number', u'of', u'fourth-quarter']
+{'VerbString': Counter({u'VBD_did RB_initi VB_seem': 1, u'VB_seem TO_to VB_follow': 1})}
+()
+('Chunk Number: ', 45)
+[u'tests', u'in', u'2004', u',', u'2005', u'and', u'2006', u'.', u'However', u',', u'they', u'failed', u'to', u'continue', u'this', u'practice', u'in', u'2007', u'.', u'Why', u'would', u'USADA', u'decide', u'to', u'perform', u'only', u'15', u'%', u'of']
+{'VerbString': Counter({u'VBD_fail TO_to VB_continu': 1, u'VB_decid TO_to VB_perform': 1})}
+()
+('Chunk Number: ', 46)
+[u'their', u'annual', u'out-of-competition', u'tests', u'during', u'the', u'fourth', u'quarter', u'?', u'Let', u"'s", u'not', u'forget', u'that', u'this', u'is', u'the', u'off', u'season', u'before', u'the', u'upcoming', u'summer', u'Olympic', u'Games', u'.', u'This', u'is', u'equivalent']
+{'VerbString': Counter({u'VB_forget IN_that': 1})}
+()
+('Chunk Number: ', 47)
+[u'to', u'a', u'fisherman', u'knowing', u'that', u'the', u'fish', u'are', u'ready', u'to', u'bite', u'and', u'then', u'consciously', u'deciding', u'that', u'it', u'is', u'time', u'to', u'reel', u'in', u'his', u'line', u'and', u'hook', u',', u'lean', u'his']
+{'VerbString': Counter({u'VBG_decid IN_that': 1, u'VBG_know IN_that': 1})}
+()
+('Chunk Number: ', 48)
+[u'fishing', u'pole', u'up', u'against', u'a', u'tree', u'and', u'take', u'a', u'nap', u'.', u'On', u'several', u'occasions', u',', u'I', u'have', u'provided', u'detailed', u'information', u'to', u'both', u'USADA', u'and', u'WADA', u'in', u'an', u'attempt', u'to']
+{'FPPyou': Counter(), 'FPP': Counter({u'PRP_i': 1}), 'FPPme': Counter(), 'FPPwe': Counter()}
+()
+('Chunk Number: ', 49)
+[u'help', u'them', u'establish', u'more', u'effective', u'testing', u'policies', u'and', u'procedures', u'.', u'I', u'certainly', u'have', u'more', u'information', u'that', u'I', u'would', u'like', u'the', u'opportunity', u'to', u'provide', u'to', u'you', u'and', u'UK', u'Sport', u',']
+{'VerbString': Counter({u'VB_help PRP_them VB_establish': 1, u'VB_like DT_the NN_opportun TO_to VB_provid': 1}), 'FPPyou': Counter({u'PRP_you': 1}), 'FPP': Counter({u'PRP_i': 2}), 'FPPme': Counter(), 'FPPwe': Counter()}
+()
+('Chunk Number: ', 50)
+[u'but', u'I', u'will', u'leave', u'that', u'for', u'another', u'time', u'.', u'Hopefully', u',', u'this', u'information', u'will', u'be', u'helpful', u'and', u'I', u'am', u'available', u'to', u'assist', u'you', u'further', u'upon', u'request', u'.', u'Yours', u'sincerely']
+{'VerbString': Counter({u'VB_leav IN_that': 1}), 'FPPyou': Counter({u'PRP_you': 1}), 'FPP': Counter({u'PRP_i': 2}), 'FPPme': Counter(), 'FPPwe': Counter()}
+()
+('Chunk Number: ', 51)
+[u',', u'Victor', u'Conte']
+{}
+()
+{'FPPyou': [2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0], 'VerbString': [3, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 0, 1, 1, 0, 0, 2, 0, 2, 2, 2, 0, 1, 1, 3, 3, 3, 0, 1, 2, 0, 2, 2, 1, 2, 0, 2, 1, 0], 'FPPme': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'FPP': [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2, 2, 0], 'FPPwe': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
